@@ -46,6 +46,7 @@ public class MenuGeneral {
             default:
                 System.out.println("Opción no válida");
                 opcionesMenu();
+                break;
         }
     }
 
@@ -77,11 +78,14 @@ public class MenuGeneral {
                     System.out.println(p.toString());
                 }
                 inventario();
+                break;
             case 5:
                 opcionesMenu();
+                break;
             default:
                 System.out.println("Opción no válida");
                 inventario();
+                break;
         }
     }
     public void ventas(){
