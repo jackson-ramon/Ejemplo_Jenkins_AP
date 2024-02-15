@@ -1,0 +1,4 @@
+
+0001,Ruffles Original,0.6,Frito Lay,20
+0002,Ruffles Crema y Cebolla,0.6,Frito Lay,20
+0003,Doritos Limón,0.6,Frito Lay,15
