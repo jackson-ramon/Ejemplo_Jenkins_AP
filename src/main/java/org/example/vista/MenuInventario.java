@@ -26,19 +26,10 @@ public class MenuInventario {
         int unidades = Integer.parseInt(entrada.nextLine());
         Producto producto = new Producto(codigo,nombre,precio,distribuidor,unidades);
 
-        /*
-            Apartado para hacer demostración de integración continua
-        */
-        producto.registrarProducto(producto);
-        System.out.println("Producto registrado con éxito");
-        m.inventario();
-
-        /* Para probar CI borrar las 3 lineas anteriores y descomentar lo siguiente
         if(validarRegistro(producto)){
             System.out.println("Producto registrado con éxito");
             m.inventario();
         }
-        */
     }
 
     public boolean validarRegistro(Producto p) {
